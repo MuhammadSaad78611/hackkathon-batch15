@@ -225,11 +225,16 @@ text-transform: capitalize;
     font-weight: bold;
 }
 
-.content-4 input {
+.content-4 input{
     background-color: #515b60;
     color: #fff;
     padding: 3px 17px;
     border-radius: 3px;
+}
+
+input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
 }
 
 .content-4 input:focus{
